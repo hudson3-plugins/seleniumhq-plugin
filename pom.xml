@@ -7,7 +7,8 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>seleniumhq</artifactId>
+	<groupId>org.hudsonci.plugin</groupId>
+        <artifactId>seleniumhq</artifactId>
 	<packaging>hpi</packaging>
 	<version>0.5-SNAPSHOT</version>
 	<name>Hudson Seleniumhq plugin</name>
@@ -19,29 +20,13 @@
 			<name>Pascal Martin</name>
 		</developer>
 	</developers>
-<dependencies>
-<dependency>
-    <groupId>org.hudsonci.plugins</groupId>
-    <artifactId>jfreechart-plugin</artifactId>
-    <version>1.4</version>
-</dependency>
-</dependencies>
-
-
-<!--    <repositories>
-        <repository>
-            <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/public/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>repo.jenkins-ci.org</id>
-            <url>http://repo.jenkins-ci.org/public/</url>
-        </pluginRepository>
-    </pluginRepositories>
--->
+        <dependencies>
+            <dependency>
+                <groupId>org.hudsonci.plugins</groupId>
+                <artifactId>jfreechart-plugin</artifactId>
+                <version>1.4</version>
+            </dependency>
+        </dependencies>
 </project>  
   
 
