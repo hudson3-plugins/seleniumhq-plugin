@@ -10,7 +10,7 @@
 	<groupId>org.hudsonci.plugins</groupId>
         <artifactId>seleniumhq</artifactId>
 	<packaging>hpi</packaging>
-	<version>0.4-h-1</version>
+	<version>0.4-h-2-SNAPSHOT</version>
 	<name>Hudson Seleniumhq plugin</name>
 	<url>http://wiki.hudson-ci.org/display/HUDSON/Seleniumhq+Plugin</url>
 
